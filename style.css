@@ -15,7 +15,7 @@ h1{
     color: orange;
    
 }
-section{
+.flexible-container{
     display: flex;
     margin: 100px;
 }
@@ -25,6 +25,7 @@ section{
 .half-width img{
     width: 70%;
     padding: 5%;
+
 
 }
 .link-button{
@@ -45,4 +46,29 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+}
+.experience-items{
+    margin-left: 2%;
+    margin-right: 2%;
+
+    box-shadow: 10px 10px 40px rgb(62, 56, 45);
+    border-radius: 10px;
+
+
+}
+#full-stack{
+
+    border-left: 7px solid orange;
+
+}
+#junior-developer{
+border-left: 7px solid blue;
+
 }
